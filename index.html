@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    
+    <form id="userForm" method="post" enctype="multipart/form-data">
+        <h2>User Form</h2>
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="number" name="age" placeholder="Age" required>
+      <input type="number" name="weight" placeholder="Weight" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <h3>Upload Health Report:</h3><h3><a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf">Sample Pdf file</a></h3><input type="file" name="healthReport" accept=".pdf" id="healthReport" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
